@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg="random_goal_creator" name="waypoint_creator" type="waypoint_creator.py" />
+    <node pkg="random_goal_creator" name="local_goal_creator" type="local_goal_creator" />
+    <!-- <node pkg="rviz" type="rviz" name="rviz2" args="-d $(find chibi21_a)/config/simulate_dwa.rviz"/> -->
+
+</launch>
